@@ -9,4 +9,5 @@ loginForm.addEventListener("submit", (event) => {
   email === "" || password === ""
     ? alert("Все поля должны быть заполнены!")
     : console.log({ email, password });
+  loginForm.reset();
 });
